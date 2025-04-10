@@ -37,3 +37,10 @@
 ```
 bash <(curl -s https://raw.githubusercontent.com/aliamg1356/auto-ssl-for-marzban/refs/heads/main/autossl.sh --ipv4)
 ```
+
+
+اگر از این اسکریپت استفاده کرده اید با استفاده از استفاده از اسکریپت زیر میتونید عملیات بروزرسانی و جایگذاری را به صورت اتوماتیک بکنید. این اسکریپت میاد هر هفته شنبه ساعت 4 صبح کنترل میکنه اگر نیاز به روز رسانی سرتیفیکیت باشه این کار رو انجام میده و و فایلهای جدید رو جایگذاری میکنه و مرزبان رو ریستارت میکنه
+
+```
+bash <(curl -s https://raw.githubusercontent.com/aliamg1356/auto-ssl-for-marzban/refs/heads/main/marzban-cert-renewer.sh --ipv4)
+```
